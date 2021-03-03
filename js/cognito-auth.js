@@ -123,7 +123,7 @@ var WildRydes = window.WildRydes || {};
         signin(email, password,
             function signinSuccess() {
                 console.log('Successfully Logged In');
-                window.location.href = 'ride.html';
+                window.location.href = 'insert_customer_db.html';
             },
             function signinError(err) {
                 alert(err);
