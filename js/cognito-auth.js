@@ -113,7 +113,9 @@ var WildRydes = window.WildRydes || {};
         $('#registrationForm').submit(handleRegister);
         $('#verifyForm').submit(handleVerify);
     });
-
+    // the function handles how to login via browser
+    // if it successfully login the browser will be directed
+    // to ride.html
     function handleSignin(event) {
         var email = $('#emailInputSignin').val();
         var password = $('#passwordInputSignin').val();
